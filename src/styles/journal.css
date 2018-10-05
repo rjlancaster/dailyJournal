@@ -1,0 +1,49 @@
+/* Elements */
+
+body {
+
+}
+
+label {
+  margin: 5px;
+  padding: 15px;
+}
+
+input {
+  width: 300px;
+}
+
+textarea {
+  width: 300px;
+}
+
+select {
+  width: 300px;
+}
+
+button {
+  margin: 5px;
+  padding: 5px;
+}
+
+form {
+  border: none;
+}
+
+/* Classes */
+
+.journalItems {
+  
+}
+
+.journalInputs {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  flex-basis: 50%;
+}
+
+/* ID's */
+
+
+

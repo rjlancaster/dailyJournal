@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles/journal.css">
+  <title>Richard's Daily Journal</title>
+</head>
+
+<body>
+  <h1>Daily Journal</h1>
+  <form action="">
+    <fieldset class="journalItems">
+      <label class="journalInputs" for="journalDate">Date of Entry
+      <input type="date" name="journalDate" id="journalDate"></label>
+      <label class="journalInputs" for="conceptsCovered">Concepts Covered
+      <input type="text" name="conceptsCovered" id="conceptsCovered" placeholder="What concept are you covering today?"></label>
+      <label class="journalInputs" for="journalEntry">Journal Entry
+      <textarea rows="3" columns="40" name="journalEntry" id="conceptsCovered" placeholder="Tell me what's on your mind"></textarea></label>
+      <label class="journalInputs" for="mood">Mood for the Day
+      <select>
+        <option value="5">5 - Ecstatic!</option>
+        <option value="4">4 - Winning!</option>
+        <option value="4">3 - I can do this</option>
+        <option value="2">2 - Ruh Roh</option>
+        <option value="1">1 - Ohhhhh shit.</option>
+      </select></label>
+    </fieldset>
+    <button type="button">Record Journal Entry</button>
+  </form>
+</body>
+
+</html>
