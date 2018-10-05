@@ -1,7 +1,8 @@
 /* Elements */
 
 body {
-
+  background: #485167;
+  font-size: 15px;
 }
 
 label {
@@ -9,15 +10,11 @@ label {
   padding: 15px;
 }
 
-input {
-  width: 300px;
+form {
+  width: 500px;
 }
 
-textarea {
-  width: 300px;
-}
-
-select {
+input, textarea, select {
   width: 300px;
 }
 
@@ -26,21 +23,31 @@ button {
   padding: 5px;
 }
 
-form {
+h1 {
+  text-align: center;
+  color: #EAE6DA;
+}
+
+fieldset {
   border: none;
+  color: #EAE6DA;
 }
 
 /* Classes */
 
-.journalItems {
-  
+.journalBox {
 }
 
 .journalInputs {
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
-  flex-basis: 50%;
+  border: 3px solid #A9754F;
+  border-radius: 15px;
+}
+
+.journal {
+  display: flex;
+  justify-content: center;
 }
 
 /* ID's */
