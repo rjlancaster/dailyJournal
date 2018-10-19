@@ -1,0 +1,22 @@
+{
+  "journalEntries": [
+    {
+      "date": "10/19/2018",
+      "concept": "The Promise of Fetches",
+      "entry": "We learned about how to run fetches that connect to API's.  For each fetch, there is a thing called a Promise that's returned.  I think I get it on a high level, but I'm going to need a ton of practice.",
+      "mood": "3 - I can do this."
+    },
+    {
+      "date": "10/17/2018",
+      "concept": "Passing JS over to the DOM",
+      "entry": "We're not only just playing with JS but using JS to pass things over to the DOM.  Really cool!  But still a bit confusing.  I'm getting it to work but not quite sure what I'm doing, haha.", 
+      "mood": "2 - Ruh Roh..."
+    },
+    {
+      "date": "10/16/2018",
+      "concept": "Drilling down for data",
+      "entry": "There's this HUGE API with Steve's commits, push events, pull request, etc that we are using in one of our exercises.  I sat with Greg for a long time and was able to solve the first question.  After that, things made sense!  It's a cool feeling to get the concept and actually see things working in action.",
+      "mood": "5 - Whoa, ecstatic!"
+    }
+  ]
+}
