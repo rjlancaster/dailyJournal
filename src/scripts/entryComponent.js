@@ -2,11 +2,11 @@
 
 
 // Create function to populate JSON details into HTML format.
-const journalAsHTML = (date, concept, entry, mood) => `
+const journalAsHTML = (obj) => `
 <div class="dayEntry">
-<h3>${date}</h3>
-<p>Subject matter is... ${concept}</p>
-<p>${entry}</p>
-<p>Mood for the day: ${mood}</p>
+<h3>${obj.date}</h3>
+<p>Subject matter is... ${obj.concept}</p>
+<p>${obj.entry}</p>
+<p>Mood for the day: ${obj.mood}</p>
 </div>
 `

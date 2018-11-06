@@ -18,25 +18,43 @@
       <label class="journalInputs" for="journalDate">Date of Entry
         <input type="date" name="journalDate" id="journalDate"></label>
       <label class="journalInputs" for="conceptsCovered">Concept Covered
-        <input type="text" name="conceptsCovered" id="conceptsCovered" placeholder="What concept are you covering today?"></label>
+        <input type="text" name="conceptsCovered" id="conceptsCoveredText" placeholder="What concept are you covering today?"></label>
       <label class="journalInputs" for="journalEntry">Journal Entry
-        <textarea rows="3" columns="40" name="journalEntry" id="conceptsCovered" placeholder="Tell me what's on your mind"></textarea></label>
+        <textarea rows="3" columns="40" name="journalEntry" id="journalEntryText" placeholder="Tell me what's on your mind"></textarea></label>
       <label class="journalInputs" for="mood">Mood for the Day
-        <select>
+        <select id="moodValue">
           <option value="5 - Whoa, ecstatic!">5 - Whoa, ecstatic!</option>
           <option value="4 - Everything's coming up Milhouse!">4 - Everything's coming up Milhouse!</option>
           <option value="3 - I can do this.">3 - I can do this.</option>
           <option value="2 - Ruh Roh...">2 - Ruh Roh...</option>
           <option value="1 - Ohhhhh shit.">1 - Ohhhhh shit.</option>
         </select></label>
-      <button type="button" class="btn btn-light btn-sm">Record Journal Entry</button>
+      <button type="button" class="btn btn-light btn-sm" id="submitBtn">Record Journal Entry</button>
+      <div>
+        <legend>Filter Entries by Mood</legend>
+        <div id="moodFilters">
+          <div>
+            <input type="radio" id="_1" name="mood" value="_1" checked />
+            <label for="_1">Shiiit</label>
+            <input type="radio" id="_2" name="mood" value="_2" />
+            <label for="_2">Ruh Roh</label>
+            <input type="radio" id="_3" name="mood" value="_3" />
+            <label for="_3">OK!</label>
+            <input type="radio" id="_4_5" name="mood" value="_4_5" />
+            <label for="_4_5">Milhouse</label>
+            <input type="radio" id="_5" name="mood" value="_5" />
+            <label for="_5">Ecstatic!</label>
+          </div>
+        </div>
+      </div>
     </fieldset>
+  </div>
+  <div id="entryLog">
 
   </div>
-  <div class="entryLog">
 
-  </div>
-
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
   <script src="scripts/data.js"></script>
   <script src="scripts/entriesDOM.js"></script>
   <script src="scripts/entryComponent.js"></script>
