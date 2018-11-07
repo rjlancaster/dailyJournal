@@ -19,7 +19,7 @@ button {
   margin: 25px;
 }
 
-h1 {
+h1, legend {
   text-align: center;
   color: #EAE6DA;
 }
@@ -51,6 +51,10 @@ fieldset {
   color: #EAE6DA;
 }
 
+.hidden {
+  display: none;
+}
+
 /* ID's */
 
 #entryLog {
@@ -64,6 +68,7 @@ fieldset {
 #moodFilters {
   display: flex;
   flex-direction: row;
-  width: 500px;
-  border: 1px solid red;
+  align-content: space-around;
+  width: 600px;
+  padding-left: 20px;
 }

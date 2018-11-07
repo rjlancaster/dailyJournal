@@ -20,13 +20,6 @@
       "entry": "We learned about how to run fetches that connect to API's.  For each fetch, there is a thing called a Promise that's returned.  I think I get it on a high level, but I'm going to need a ton of practice.",
       "mood": "3 - I can do this.",
       "id": 3
-    },
-    {
-      "date": "2018-11-05",
-      "concept": "Get this shit working",
-      "entry": "Will it work?",
-      "mood": "5 - Whoa, ecstatic!",
-      "id": 4
     }
   ]
 }

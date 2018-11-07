@@ -2,7 +2,8 @@
 
 
 // Create function to populate JSON details into HTML format.
-const journalAsHTML = (obj) => `
+const journalAsHTML = (obj) => {
+  let journalComponent = `
 <div class="dayEntry">
 <h3>${obj.date}</h3>
 <p>Subject matter is... ${obj.concept}</p>
@@ -10,3 +11,5 @@ const journalAsHTML = (obj) => `
 <p>Mood for the day: ${obj.mood}</p>
 </div>
 `
+  return journalComponent
+}
