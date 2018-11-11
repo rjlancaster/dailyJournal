@@ -44,20 +44,13 @@ fieldset {
 }
 
 .dayEntry {
-  display: flex;
-  flex-direction: column;
+  align-content: center;
   width: 500px;
-  border-radius: 15px;
-  color: #EAE6DA;
-}
-
-.hidden {
-  display: none;
 }
 
 /* ID's */
 
-#entryLog {
+#output {
   display: flex;
   align-items: center;
   flex-direction: column;
