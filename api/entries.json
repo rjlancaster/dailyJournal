@@ -64,5 +64,22 @@
       "id": 5,
       "label": "Excited"
     }
+  ],
+  "instructors": [
+    {
+      "id": 1,
+      "firstName": "Joe",
+      "lastName": "Shephard"
+    },
+    {
+      "id": 1,
+      "firstName": "Jenna",
+      "lastName": "Solis"
+    },
+    {
+      "id": 1,
+      "firstName": "Greg",
+      "lastName": "Korte"
+    }
   ]
 }

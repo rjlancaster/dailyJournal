@@ -1,6 +1,6 @@
 import { dataManager } from "./dataManager"
 import { formManager } from "./formManager"
-import { domRender } from "./domRender"
+import { dom } from "./dom"
 
 const saveJournal = () => {
   document.querySelector("#saveBtn").addEventListener("click", () => {
@@ -14,7 +14,7 @@ const saveJournal = () => {
       dataManager.saveEntry(formManager.formatUserInput())
         .then(() => {
           formManager.clearForm()
-          domRender()
+          dom.domRender()
         })
     }
   })

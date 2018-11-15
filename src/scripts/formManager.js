@@ -11,13 +11,7 @@ const formManager = {
       <label class="journalInputs" for="content">Journal Entry
         <textarea rows="3" columns="40" name="content" id="content" placeholder="Tell me what's on your mind"></textarea></label>
       <label class="journalInputs" for="mood">Mood for the Day
-        <select id="mood">
-          <option value="Excited">Excited</option>
-          <option value="Good">Good</option>
-          <option value="OK">OK</option>
-          <option value="Struggling">Struggling</option>
-          <option value="Sad">Sad</option>
-        </select></label>
+        <select id="moodOptions"></select></label>
       <button type="button" class="btn btn-light btn-sm" id="saveBtn">Record Journal Entry</button>
       <div>
         <legend>Filter Entries by Mood</legend>

@@ -34,7 +34,11 @@ const dataManager = {
   singleEntry: (id) => {
     return fetch(`${url}/${id}`)
       .then(res => res.json())
-
+  },
+  fetchMoods: () => {
+    return fetch("http://localhost:3000/moods")
+      .then(res => res.json())
+      .then(res => res)
   }
 }
 
