@@ -4,22 +4,65 @@
       "date": "2018-10-16",
       "title": "Drilling down for data",
       "content": "There's this HUGE API with Steve's commits, push events, pull request, etc that we are using in one of our exercises.  I sat with Greg for a long time and was able to solve the first question.  After that, things made sense!  It's a cool feeling to get the concept and actually see things working in action.",
-      "mood": "Excited",
+      "moodId": 5,
       "id": 1
     },
     {
       "date": "2018-10-17",
       "title": "Passing JS over to the DOM",
       "content": "We're not only just playing with JS but using JS to pass things over to the DOM.  Really cool!  But still a bit confusing.  I'm getting it to work but not quite sure what I'm doing, haha.",
-      "mood": "Struggling",
+      "moodId": 2,
       "id": 2
     },
     {
       "date": "2018-10-19",
       "title": "The Promise of Fetches",
       "content": "We learned about how to run fetches that connect to API's.  For each fetch, there is a thing called a Promise that's returned.  I think I get it on a high level, but I'm going to need a ton of practice.",
-      "mood": "Good",
+      "moodId": 4,
       "id": 3
+    },
+    {
+      "date": "2018-11-15",
+      "title": "test",
+      "content": "test",
+      "moodId": 5,
+      "id": 4
+    },
+    {
+      "date": "2018-11-16",
+      "title": "taet",
+      "content": "aestae",
+      "moodId": 4,
+      "id": 5
+    },
+    {
+      "date": "2018-11-15",
+      "title": "test",
+      "content": "test",
+      "moodId": 4,
+      "id": 6
+    }
+  ],
+  "moods": [
+    {
+      "id": 1,
+      "label": "Sad"
+    },
+    {
+      "id": 2,
+      "label": "Struggling"
+    },
+    {
+      "id": 3,
+      "label": "OK"
+    },
+    {
+      "id": 4,
+      "label": "Good"
+    },
+    {
+      "id": 5,
+      "label": "Excited"
     }
   ]
 }

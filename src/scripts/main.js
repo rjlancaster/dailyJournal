@@ -3,4 +3,4 @@ import { dataManager } from "./dataManager"
 // loads journal div to DOM
 journal();
 
-dataManager.getEntries().then(entry => console.log(entry))
+dataManager.getEntries()

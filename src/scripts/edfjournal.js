@@ -33,7 +33,7 @@ const edfJournal = {
             output.innerHTML = ""
             dataManager.getEntries()
               .then(entries =>
-                entries.filter(entry => entry.mood === radioBtnClicked))
+                entries.filter(entry => entry.mood.label === radioBtnClicked))
               .then(entries => {
                 entries.forEach(entry => {
                   let entryHtml = htmlEntry(entry)

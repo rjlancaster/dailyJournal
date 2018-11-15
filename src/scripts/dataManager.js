@@ -6,6 +6,7 @@ const dataManager = {
   getEntries: () => {
     return fetch(`${url}`)
       .then(res => res.json())
+      // .then(res => console.log(res))
   },
   saveEntry: (entry) => {
     return fetch(`${url}`, {
