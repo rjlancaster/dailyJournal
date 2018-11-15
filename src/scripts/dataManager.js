@@ -1,6 +1,6 @@
 // Code in this file deals with posting and retrieving the data from JSON.
 
-const url = "http://localhost:8088/journalentries"
+const url = "http://localhost:3000/journalentries?_expand=mood"
 
 const dataManager = {
   getEntries: () => {
