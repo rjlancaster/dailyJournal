@@ -9,6 +9,9 @@ const dom = {
   domMoods: (entry) => {
     document.querySelector("#moodOptions").innerHTML += entry
   },
+  domInstructor: (entry) => {
+    document.querySelector("#instructorOptions").innerHTML += entry
+  },
 
   domRender: () => {
     document.querySelector("#output").innerHTML = ""
@@ -26,8 +29,16 @@ const dom = {
       .then(moods => {
         moods.forEach(mood => {
           const moodHtml = htmlEntry.moodEntry(mood)
-          console.log(moodHtml)
           dom.domMoods(moodHtml)
+        })
+      })
+  },
+  instructorsRender: () => {
+    dataManager.fetchInstructors()
+      .then(instructors => {
+        instructors.forEach(instructor => {
+          const instructorHtml = htmlEntry.instructorEntry(instructor)
+          dom.domInstructor(instructorHtml)
         })
       })
   }

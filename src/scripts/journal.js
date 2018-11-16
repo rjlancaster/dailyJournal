@@ -9,6 +9,7 @@ const journal = () => {
   //loads JSON array to DOM on window load
   dom.domRender()
   dom.moodRender()
+  dom.instructorsRender()
   // function for saveBtn click event, save to JSON, clear output div and reloads JSON array to DOM
   saveJournal()
   // function for edit and delete buttons

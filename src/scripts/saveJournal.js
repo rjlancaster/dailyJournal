@@ -7,8 +7,9 @@ const saveJournal = () => {
     const title = document.querySelector("#title").value
     const content = document.querySelector("#content").value
     const date = document.querySelector("#date").value
-    const mood = document.querySelector("#mood").value
-    if (!title || !content || !date || !mood) {
+    const moodsID = document.querySelector("#mood").value
+    const instructorsID = document.querySelector("#instructor").value
+    if (!title || !content || !date || !moodsID || !instructorsID) {
       alert("Please fill all entries in form")
     } else {
       dataManager.saveEntry(formManager.formatUserInput())
